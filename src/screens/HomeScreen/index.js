@@ -1,10 +1,17 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
+import HomeMap from '../../components/HomeMap';
+import CovidMessage from '../../components/CovidMessage';
+import HomeSearch from '../../components/HomeSearch';
+
 const HomeScreen = ()=> {
     return (
         <View>
-            <Text>Hi i'm the home screen!</Text>
+            <HomeMap />
+            <CovidMessage />
+            <HomeSearch />
+            {/* Bottom component */}
         </View>
     )
 }
