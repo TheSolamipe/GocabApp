@@ -18,7 +18,7 @@ const DestinationSearch = () => {
     return (
         <SafeAreaView>
             <View style={styles.container}>
-                <TextInput style={styles.textInput} value={fromText} onChangeText={setOriginPlace} placeholder='Current location' />
+                <TextInput style={styles.textInput} value={originPlace} onChangeText={setOriginPlace} placeholder='Current location' />
                 <GooglePlacesAutocomplete
                     placeholder='Where to?'
                     onPress={(data, details = null) => {
