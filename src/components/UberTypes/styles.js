@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'black',
         padding: 10,
         margin: 10,
-        alignItems: 'center'
+        alignItems: 'center',
     },
     buttonText: {
         color: 'white',

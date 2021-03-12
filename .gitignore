@@ -60,3 +60,7 @@ buck-out/
 
 .env
 .babelrc
+ios/GocabApp/AppDelegate.m
+android/app/src/main/AndroidManifest.xml
+
+
